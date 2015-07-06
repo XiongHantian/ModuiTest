@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ModuiTest</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="熊撼天">熊撼天</string>
+    <string name="title_activity_sliding_menu">SlidingMenuActivity</string>
+</resources>
