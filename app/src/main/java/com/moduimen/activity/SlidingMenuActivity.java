@@ -1,6 +1,6 @@
-package com.moduimen.slidingmenu;
+package com.moduimen.activity;
 
-import com.moduimen.slidingmenu.view.SlidingMenu;
+import com.moduimen.view.SlidingMenu;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -20,7 +20,6 @@ public class SlidingMenuActivity extends Activity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_slidingmenu);
         mLeftMenu = (SlidingMenu) findViewById(R.id.id_menu);
-
     }
 
     public void toggleMenu(View view) {

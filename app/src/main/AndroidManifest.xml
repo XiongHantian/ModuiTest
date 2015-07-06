@@ -8,11 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name">
-        </activity>
-        <activity
-            android:name="com.moduimen.slidingmenu.SlidingMenuActivity"
+            android:name="com.moduimen.activity.SlidingMenuActivity"
             android:label="@string/title_activity_sliding_menu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

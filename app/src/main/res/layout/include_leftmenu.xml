@@ -14,13 +14,15 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" >
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/id_img1"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:scaleType="centerInside"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp"
+                android:background="#0000"
                 android:src="@drawable/icon_slidingmenu_home" />
 
             <TextView
